@@ -1,0 +1,15 @@
+
+Programming Question:
+Program a simulation of the banker’s algorithm. Your program should cycle through each of the bank clients
+asking for a request and evaluating whether it is safe or unsafe. Output a log of requests and decisions to a file.
+
+Source code file:
+Bank: is the implementation of banker’s algorithm.
+Main: is the main class.
+
+There are two output screenshots to show different results. 
+There are three situations: 
+1. if safe, it will print the process running order;
+2. the first input process can’t be satisfied, it will print the information.
+3. in addition to the second situation, for other unsafe situation, it will show which processes are unmarked during running.
+
